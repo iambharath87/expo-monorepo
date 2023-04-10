@@ -1,18 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { Button } from "ui";
+import { Link } from "expo-router";
 
-export default function Native() {
+export default function Other() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Native</Text>
-      <Button
-        onClick={() => {
-          console.log("Pressed!");
-          alert("Pressed!");
-        }}
-        text="Boop"
-      />
+      <Text style={styles.header}>Other Page</Text>
+      <Link href={"/"}>Go to Home</Link>
       <StatusBar style="auto" />
     </View>
   );
