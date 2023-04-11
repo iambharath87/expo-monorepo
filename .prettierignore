@@ -1,0 +1,14 @@
+# ide
+.vscode
+.idea
+
+# build
+.next
+build
+dist
+
+# expo
+.expo
+
+# yarn
+yarn.lock

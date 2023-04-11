@@ -1,15 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
 import { Link } from 'expo-router';
 
-export default function Native() {
+export default function CreditCard() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Native</Text>
+      <Text style={styles.header}>Credit Card Page</Text>
       <View>
-        <Link href="/credit-card">{'->'} Go to Credit Card page</Link>
+        <Link href="/details">{'->'} Go to Details page</Link>
       </View>
-      <StatusBar style="auto" />
     </View>
   );
 }

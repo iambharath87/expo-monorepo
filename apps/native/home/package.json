@@ -11,6 +11,7 @@
     "dev": "yarn start"
   },
   "dependencies": {
+    "credit-card": "*",
     "expo": "^48.0.10",
     "expo-constants": "~14.2.1",
     "expo-linking": "~4.0.1",
