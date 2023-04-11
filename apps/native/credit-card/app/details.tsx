@@ -4,11 +4,9 @@ import { Link } from 'expo-router';
 export default function Details() {
   return (
     <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>This is Details page</Text>
-        <Link style={styles.subtitle} href={'/'}>
-          {'<-'} Go home
-        </Link>
+      <Text style={styles.header}>Details page</Text>
+      <View>
+        <Link href="/">{'<-'} Go Home</Link>
       </View>
     </View>
   );
@@ -17,21 +15,13 @@ export default function Details() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
-    padding: 24,
-  },
-  main: {
-    flex: 1,
     justifyContent: 'center',
-    maxWidth: 960,
-    marginHorizontal: 'auto',
   },
-  title: {
-    fontSize: 64,
+  header: {
     fontWeight: 'bold',
-  },
-  subtitle: {
+    marginBottom: 20,
     fontSize: 36,
-    color: '#38434D',
   },
 });
