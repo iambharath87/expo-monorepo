@@ -8,7 +8,8 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `native`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/)
+- `native`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/). This serves as our host app.
+- `credit-card`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/). This serves as a standalone expo app & as a credit-card module that can be consumed by the host app.
 - `web`: a [Next.js](https://nextjs.org/) app built with [react-native-web](https://necolas.github.io/react-native-web/)
 - `ui`: a stub [react-native](https://reactnative.dev/) component library shared by both `web` and `native` applications
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
