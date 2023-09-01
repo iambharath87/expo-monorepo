@@ -1,5 +1,5 @@
-import { Stack } from 'expo-router';
+import { CustomNavigator } from "../customNavigator";
 
 export default function Root() {
-  return <Stack />;
+  return <CustomNavigator />;
 }
