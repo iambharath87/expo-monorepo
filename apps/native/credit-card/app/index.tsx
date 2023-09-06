@@ -4,9 +4,9 @@ import { Link } from 'expo-router';
 export default function CreditCard() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Credit Card Page</Text>
+      <Text style={styles.header}>Credit Card App</Text>
       <View>
-        <Link href="/details">{'->'} Go to Details page</Link>
+        <Link href="/details">{'->'} Go to Credit Card Details page</Link>
       </View>
     </View>
   );

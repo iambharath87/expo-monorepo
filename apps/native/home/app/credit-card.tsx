@@ -1,5 +1,5 @@
 import CreditCard from 'credit-card/app/index';
 
-export default function OrchestrationApp() {
+export default function CreditCardApp() {
   return <CreditCard />;
 }

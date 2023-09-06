@@ -5,7 +5,7 @@ import { Link } from 'expo-router';
 export default function Native() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Native</Text>
+      <Text style={styles.header}>Home App</Text>
       <View>
         <Link href="/credit-card">{'->'} Go to Credit Card page</Link>
       </View>
